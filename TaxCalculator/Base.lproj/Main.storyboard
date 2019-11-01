@@ -67,11 +67,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Calculate Tax Owing"/>
+                                <connections>
+                                    <action selector="taxOwing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a8M-VZ-Kkc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="grossIncome" destination="c4Z-nq-T4r" id="7j1-xj-qmd"/>
+                        <outlet property="name" destination="q3k-d5-keq" id="E9a-z0-te9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
