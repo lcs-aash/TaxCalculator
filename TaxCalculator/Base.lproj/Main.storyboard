@@ -76,7 +76,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="EffectiveTaxRate" destination="gns-N3-BDk" id="ePc-wa-3JX"/>
                         <outlet property="effectiveTaxRate" destination="gns-N3-BDk" id="hQc-WK-5uA"/>
                         <outlet property="federalTaxOwing" destination="3S8-yw-SFC" id="yI7-EM-6nx"/>
                         <outlet property="grossIncome" destination="c4Z-nq-T4r" id="7j1-xj-qmd"/>
